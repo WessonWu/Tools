@@ -27,6 +27,11 @@ Pod::Spec.new do |s|
     sp.source_files = "Source/Rect/**/*.swift"
   end
   
+  s.subspec "Image" do |sp|
+    sp.frameworks = "UIKit"
+    sp.source_files = "Source/Image/**/*.swift"
+  end
+  
   s.subspec "ViewController" do |sp|
     sp.frameworks = "UIKit"
     sp.source_files = "Source/ViewController/**/*.swift"
