@@ -1,0 +1,24 @@
+PODS:
+  - Tools (0.1.0):
+    - Tools/Color (= 0.1.0)
+    - Tools/Device (= 0.1.0)
+    - Tools/Rect (= 0.1.0)
+    - Tools/ViewController (= 0.1.0)
+  - Tools/Color (0.1.0)
+  - Tools/Device (0.1.0)
+  - Tools/Rect (0.1.0)
+  - Tools/ViewController (0.1.0)
+
+DEPENDENCIES:
+  - Tools (from `../`)
+
+EXTERNAL SOURCES:
+  Tools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Tools: dbd575fdb120a1c38dbb11182b00ec60eb6d0a5f
+
+PODFILE CHECKSUM: 2b1cfcf6d73b0a43cda53c8c8e1cc5403246249d
+
+COCOAPODS: 1.8.4
